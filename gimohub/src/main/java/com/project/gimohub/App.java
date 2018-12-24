@@ -12,6 +12,12 @@ public class App
         Cat cat=new Cat();
         cat.setName("Gio");
         System.out.println(cat.getName());
+
+        Dog dog = new Dog();
+        dog.setName("Bailey");
+        dog.setAction("Byte");
+        dog.getAction();
+
     }
 }
 
